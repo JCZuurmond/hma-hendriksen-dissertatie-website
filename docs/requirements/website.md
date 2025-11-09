@@ -19,7 +19,7 @@ Execute the following tasks:
 1. Set up a SvelteKit project configured for static site generation and GitHub
     Pages deployment.
 1. Implement a main landing page with:
-    1. Dissertation title
+    1. Dissertation title and subtitle
     1. Navigation to other sections
     1. Placeholder for a main image
 1. Add additional sections:
