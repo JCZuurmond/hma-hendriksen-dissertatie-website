@@ -1,0 +1,1 @@
+import{f as o,a as e}from"../chunks/DL9KBZ5e.js";import"../chunks/DNCwVdjD.js";var n=o('<main class="svelte-1uha8ag"><h1 class="svelte-1uha8ag">Improving information provision in the memory clinic</h1> <h2 class="svelte-1uha8ag">with a focus on Subjective Cognitive Decline</h2></main>');function m(a){var i=n();e(a,i)}export{m as component};
