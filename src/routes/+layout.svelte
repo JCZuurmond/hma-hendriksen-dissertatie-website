@@ -1,3 +1,6 @@
+<script module>
+// module-level code (if needed)
+</script>
 
 <script lang="ts">
 	let { children } = $props();
@@ -36,7 +39,7 @@
 	.background-image {
 		width: 100%;
 		min-height: 100vh;
-		background-image: url('/background.jpg');
+		background-image: url('/hma-hendriksen-dissertatie-website/background.jpg');
 		background-size: contain;
 		background-position: center top;
 		background-repeat: no-repeat;
