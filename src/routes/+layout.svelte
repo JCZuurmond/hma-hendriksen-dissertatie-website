@@ -3,8 +3,12 @@
 	let { children } = $props();
 </script>
 
-<div class="background-wrapper">
-	{@render children()}
+<div class="page-container">
+	<div class="content-wrapper">
+		<div class="background-image">
+			{@render children()}
+		</div>
+	</div>
 </div>
 
 <style>
@@ -12,13 +16,29 @@
 		margin: 0;
 		padding: 0;
 		height: 100%;
+		background: white;
 	}
 
-	.background-wrapper {
+	.page-container {
+		width: 100%;
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+	}
+
+	.content-wrapper {
+		width: 100%;
+		max-width: 800px; /* Adjust this value to control the width of the image */
+		margin: 0 auto;
+		background: white;
+	}
+
+	.background-image {
+		width: 100%;
 		min-height: 100vh;
 		background-image: url('/background.jpg');
-		background-size: cover;
-		background-position: center;
+		background-size: contain;
+		background-position: center top;
 		background-repeat: no-repeat;
 	}
 </style>
