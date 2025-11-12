@@ -4,7 +4,7 @@
 
 <header class="site-header">
   <nav class="nav-bar">
-  <button on:click={() => document.getElementById('author-section').scrollIntoView({behavior: 'smooth'})}>Auteur</button>
+  <button on:click={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Top</button>
   <button on:click={() => document.getElementById('about-section').scrollIntoView({behavior: 'smooth'})}>Over</button>
   <button on:click={() => document.getElementById('dissertation-section').scrollIntoView({behavior: 'smooth'})}>Dissertatie</button>
   </nav>
