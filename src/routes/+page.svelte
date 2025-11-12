@@ -62,7 +62,7 @@
 
 <footer class="site-footer visible">
   <div class="footer-content">
-    <a href="mailto:foobar.com" class="footer-link">E-mail</a>
+    <a href="mailto:contact@heleenhendriksen.nl" class="footer-link">E-mail</a>
     <span class="footer-separator">|</span>
     <a href="https://www.adappt.health/nl/informatie" class="footer-link" target="_blank" rel="noopener noreferrer">Adappt Health</a>
     <span class="footer-separator">|</span>
