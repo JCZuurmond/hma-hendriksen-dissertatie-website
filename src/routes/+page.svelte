@@ -7,6 +7,18 @@
     <h1>Improving information provision in the memory clinic</h1>
     <h2>with a focus on Subjective Cognitive Decline</h2>
   </div>
+  <section class="about-section">
+    <h3>Waar gaat dit onderzoek over</h3>
+    <p>
+      Het geven van goede en duidelijke informatie op de geheugenpoli is niet
+      altijd makkelijk. Er zijn veel verschillende tests, soorten dementie en
+      stadia van de ziekte. Vaak is de toekomst onzeker. In dit onderzoek
+      beoordeelden 802 patiënten van Alzheimercentrum Amsterdam de hoeveelheid
+      en het nut van de ontvangen informatie tijdens hun diagnostisch traject op
+      de geheugenpoli. Ook vroegen we of patiënten meer of minder informatie
+      hadden gewild, en zo ja, over welke onderwerpen. 
+    </p>
+  </section>
 </main>
 
 <style>
@@ -52,4 +64,23 @@
       font-size: 1.25rem;
     }
   }
+    .about-section {
+      width: 100%;
+      max-width: 800px;
+      margin: 2rem auto 0 auto;
+      padding: 2.5rem 2rem;
+      background-color: rgb(219, 171, 194); /* Suggested color */
+      border-radius: 1rem;
+      box-sizing: border-box;
+    }
+    .about-section h3 {
+      margin-top: 0;
+      font-size: 1.4rem;
+      color: #222;
+    }
+    .about-section p {
+      color: #333;
+      font-size: 1rem;
+      margin-bottom: 0;
+    }
 </style>
