@@ -22,8 +22,8 @@ Execute the following tasks:
 1. Add additional sections:
     1. About
     1. Publication
-    1. Contact (display info only)
-1. Navigation: Add a navigator bar at the top of the website when clicked it jumps to each section
+1. Header: Add a navigator bar at the top of the website when clicked it jumps to each section
+1. Footer: Add email contacts in the footer.
 1. Apply a modern design using the color palette:
     1. RGB(219, 171, 194)
     1. RGB(166, 216, 209)
