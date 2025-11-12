@@ -6,11 +6,10 @@
 	let { children } = $props();
 </script>
 
+
 <div class="page-container">
 	<div class="content-wrapper">
-		<div class="background-image">
-			{@render children()}
-		</div>
+		{@render children()}
 	</div>
 </div>
 
@@ -36,12 +35,5 @@
 		background: white;
 	}
 
-	.background-image {
-		width: 100%;
-		min-height: 100vh;
-		background-image: url('/hma-hendriksen-dissertatie-website/background.jpg');
-		background-size: contain;
-		background-position: center top;
-		background-repeat: no-repeat;
-	}
+
 </style>
