@@ -2,12 +2,20 @@
   import { browser } from '$app/environment';
 </script>
 
+<header class="site-header">
+  <nav class="nav-bar">
+    <button on:click={() => document.getElementById('about-section').scrollIntoView({behavior: 'smooth'})}>Over</button>
+    <button on:click={() => document.getElementById('author-section').scrollIntoView({behavior: 'smooth'})}>Auteur</button>
+    <button on:click={() => document.getElementById('dissertation-section').scrollIntoView({behavior: 'smooth'})}>Dissertatie</button>
+  </nav>
+</header>
+
 <main>
   <div class="header-background">
     <h1>Improving information provision in the memory clinic</h1>
     <h2>with a focus on Subjective Cognitive Decline</h2>
   </div>
-  <section class="about-section">
+  <section id="about-section" class="about-section">
     <h3>Waar gaat dit onderzoek over</h3>
     <p>
       Het geven van goede en duidelijke informatie op de geheugenpoli is niet
@@ -20,7 +28,7 @@
     </p>
   </section>
 
-  <section class="author-section">
+  <section id="author-section" class="author-section">
     <div class="author-content">
       <div class="author-image">
         <img src="/hma-hendriksen-dissertatie-website/Heleen.jpg" alt="Heleen" />
@@ -39,7 +47,7 @@
     </div>
   </section>
 
-  <section class="dissertation-section">
+  <section id="dissertation-section" class="dissertation-section">
     <h3>Dissertatie</h3>
     <p>
       Op 21 November 2025 verdigde H.M.A. haar 
@@ -51,6 +59,39 @@
 </main>
 
 <style>
+  .site-header {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .nav-bar button {
+    background: rgb(166, 216, 209);
+    color: #222;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .nav-bar button:hover {
+    background: rgb(219, 171, 194);
+    color: #111;
+  }
   main {
     display: flex;
     flex-direction: column;
