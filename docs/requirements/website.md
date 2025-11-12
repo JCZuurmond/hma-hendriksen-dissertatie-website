@@ -26,7 +26,7 @@ Execute the following tasks:
 1. Header: Add a navigator bar at the top of the website when clicked it jumps to each section
 1. Footer: Add email contacts in the footer.
 1. Apply a modern design using the color palette:
-    1. RGB(219, 171, 194)
+    1. RGB(233, 194, 222)
     1. RGB(166, 216, 209)
 1. Make the font configurable (use a placeholder font initially)
 

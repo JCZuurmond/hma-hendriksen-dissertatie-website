@@ -100,7 +100,7 @@
     transition: background 0.2s;
   }
   .nav-bar button:hover {
-    background: rgb(219, 171, 194);
+    background: rgb(233, 194, 222);
     color: #111;
   }
   main {
@@ -150,7 +150,7 @@
       max-width: 800px;
       margin: 0 auto;
       padding: 2.5rem 2rem;
-      background-color: rgb(219, 171, 194); /* Suggested color */
+      background-color: rgb(233, 194, 222);
       border-radius: 0;
       box-sizing: border-box;
     }
@@ -234,7 +234,7 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 2.5rem 2rem;
-    background-color: rgb(219, 171, 194); /* Suggested color */
+    background-color: rgb(233, 194, 222);
     border-radius: 0;
     box-sizing: border-box;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
@@ -259,7 +259,7 @@
   .dissertation-link {
     display: inline-block;
     padding: 0.5rem 1.25rem;
-    background-color: rgb(219, 171, 194);
+    background-color: rgb(233, 194, 222);
     color: #222;
     border-radius: 0.5rem;
     text-decoration: none;
@@ -302,7 +302,7 @@
     transition: background 0.2s;
   }
   .footer-link:hover {
-    background: rgb(219, 171, 194);
+    background: rgb(233, 194, 222);
     color: #111;
   }
   .footer-separator {
