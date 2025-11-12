@@ -118,7 +118,7 @@
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-    padding: 3.5rem 2.5rem 3.5rem 2.5rem;
+    padding: 3.5rem 2.5rem 50rem 2.5rem;
     background-image: url('/hma-hendriksen-dissertatie-website/background.jpg');
     background-size: cover;
     background-position: center top;
@@ -138,7 +138,7 @@
   @media (max-width: 768px) {
     .header-background {
       max-width: 100%;
-      padding: 2rem 0.5rem 2rem 0.5rem;
+      padding: 2rem 0.5rem 3.5rem 0.5rem; /* Increased bottom padding for mobile */
     }
     h1 {
       font-size: 2rem;
