@@ -27,7 +27,7 @@ Execute the following tasks:
 1. Footer: Add email contacts in the footer.
 1. Apply a modern design using the color palette:
     1. RGB(233, 194, 222)
-    1. RGB(166, 216, 209)
+    1. RGB(196, 228, 230)
 1. Make the font configurable (use a placeholder font initially)
 
 ## Non-functional requirements
