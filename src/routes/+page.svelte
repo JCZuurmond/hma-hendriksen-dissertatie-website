@@ -47,17 +47,17 @@
     </p>
   </section>
 
-</main>
+  <section class="site-footer">
+    <div class="footer-content">
+      <a href="mailto:contact@heleenhendriksen.nl" class="footer-link">E-mail</a>
+      <span class="footer-separator">|</span>
+      <a href="https://www.adappt.health/nl/informatie" class="footer-link" target="_blank" rel="noopener noreferrer">Adappt Health</a>
+      <span class="footer-separator">|</span>
+      <a href="https://www.alzheimer-nederland.nl/" class="footer-link" target="_blank" rel="noopener noreferrer">Alzheimer Nederland</a>
+    </div>
+  </section>
 
-<footer class="site-footer visible">
-  <div class="footer-content">
-    <a href="mailto:contact@heleenhendriksen.nl" class="footer-link">E-mail</a>
-    <span class="footer-separator">|</span>
-    <a href="https://www.adappt.health/nl/informatie" class="footer-link" target="_blank" rel="noopener noreferrer">Adappt Health</a>
-    <span class="footer-separator">|</span>
-    <a href="https://www.alzheimer-nederland.nl/" class="footer-link" target="_blank" rel="noopener noreferrer">Alzheimer Nederland</a>
-  </div>
-</footer>
+</main>
 
 <style>
   .site-header {
@@ -144,7 +144,7 @@
       width: 100%;
       max-width: 800px;
       margin: 0 auto;
-      padding: 2.5rem 2rem 6rem 2rem;
+      padding: 2.5rem 2rem 0rem 2rem;
       background-color: rgb(233, 194, 222);
       border-radius: 0;
       box-sizing: border-box;
@@ -159,11 +159,12 @@
       font-size: 1rem;
       margin-bottom: 0;
     }
+
   .author-section {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-    padding: 2.5rem 2rem;
+    padding: 2.5rem 0rem;
     background-color: rgb(233, 194, 222);
     border-radius: 0;
     box-sizing: border-box;
@@ -226,23 +227,20 @@
 
   .site-footer {
     width: 100%;
-    background: rgb(196, 228, 230);
-    box-shadow: none;
-    padding: 1.5rem 0 1.5rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    z-index: 5;
-    transition: opacity 0.3s;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+    background-color: rgb(233, 194, 222);
+    border-radius: 0;
+    box-sizing: border-box;
   }
   .footer-content {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    gap: 1.25rem;
+    justify-content: center;
     align-items: center;
+    gap: 1.25rem;
     font-size: 1rem;
     color: #222;
     background: transparent;
@@ -274,8 +272,7 @@
   }
 
   .site-footer {
-    opacity: 1;
-    pointer-events: auto;
   }
-
+  .footer-content {
+  }
 </style>
