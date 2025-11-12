@@ -11,10 +11,13 @@
 </header>
 
 <main>
-  <div class="header-background">
-    <h1>Improving information provision in the memory clinic</h1>
-    <h2>with a focus on Subjective Cognitive Decline</h2>
-  </div>
+  <section id="header-section" class="header-section">
+    <div class="header-background">
+      <h1>Improving information provision in the memory clinic</h1>
+      <h2>with a focus on Subjective Cognitive Decline</h2>
+    </div>
+  </section>
+  
   <section id="about-section" class="about-section">
     <h3>Waar gaat dit onderzoek over</h3>
     <p>
