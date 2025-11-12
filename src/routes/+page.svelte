@@ -38,6 +38,16 @@
       </div>
     </div>
   </section>
+
+  <section class="dissertation-section">
+    <h3>Dissertatie</h3>
+    <p>
+      Op 21 November 2025 verdigde H.M.A. haar 
+      <a class="dissertation-link" href="https://research.vu.nl/en/publications/improving-information-provision-in-the-memory-clinic-with-a-focus/" target="_blank" rel="noopener noreferrer">dissertatie</a>
+      over "Improving information provision in the memory clinic: with a focus
+      on Subjective Cognitive Decline "
+    </p>
+  </section>
 </main>
 
 <style>
@@ -165,5 +175,41 @@
     .author-image img {
       max-width: 100px;
     }
+  }
+
+  .dissertation-section {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto 2rem auto;
+    padding: 2.5rem 2rem;
+    background-color: rgb(219, 171, 194); /* Suggested color */
+    border-radius: 1rem;
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    text-align: left;
+  }
+  .dissertation-section h3 {
+    margin-top: 0;
+    font-size: 1.4rem;
+    color: #222;
+  }
+  .dissertation-section p {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .dissertation-link {
+    display: inline-block;
+    padding: 0.5rem 1.25rem;
+    background-color: rgb(219, 171, 194);
+    color: #222;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s;
+  }
+  .dissertation-link:hover {
+    background-color: rgb(166, 216, 209);
+    color: #111;
   }
 </style>
