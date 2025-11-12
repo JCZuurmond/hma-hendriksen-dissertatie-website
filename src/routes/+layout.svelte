@@ -31,7 +31,6 @@
 		width: 100%;
 		max-width: 800px; /* Adjust this value to control the width of the image */
 		margin: 0 auto;
-		background: white;
 	}
 
 
