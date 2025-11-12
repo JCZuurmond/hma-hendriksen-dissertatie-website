@@ -110,7 +110,7 @@
     justify-content: flex-start;
     min-height: 60vh;
     text-align: left;
-    padding: 6rem 2rem 2rem 2rem;
+    padding: 0;
   }
   .header-background {
     width: 100%;
