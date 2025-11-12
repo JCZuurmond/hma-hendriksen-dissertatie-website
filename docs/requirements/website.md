@@ -35,7 +35,7 @@ Execute the following tasks:
 
 During all tasks upheld the following non-functional requirements
 
-1. Language: Ensure the site is single-language (English)
+1. Language: Ensure the site is single-language (Dutch)
 1. Use code-based content management (no admin interface)
 1. Ensure cross-device and cross-browser compatibility
 1. Implement simple SEO (title, meta description)
