@@ -13,8 +13,6 @@
 <main>
   <section id="header-section" class="header-section">
     <div class="header-background">
-      <h1>Improving information provision in the memory clinic</h1>
-      <h2>with a focus on Subjective Cognitive Decline</h2>
     </div>
   </section>
   
@@ -118,8 +116,8 @@
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-    padding: 3.5rem 2.5rem 50rem 2.5rem;
-    background-image: url('/hma-hendriksen-dissertatie-website/background.jpg');
+    padding: 30rem 23rem 35rem 23rem;
+    background-image: url('/hma-hendriksen-dissertatie-website/background.png');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
