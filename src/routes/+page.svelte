@@ -89,7 +89,7 @@
     margin: 0 auto;
   }
   .nav-bar button {
-    background: rgb(166, 216, 209);
+    background: rgb(196, 228, 230);
     color: #222;
     border: none;
     border-radius: 0.5rem;
@@ -169,7 +169,7 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 2.5rem 2rem;
-    background-color: rgb(166, 216, 209); /* Second suggested color */
+    background-color: rgb(196, 228, 230);
     border-radius: 0;
     box-sizing: border-box;
   }
@@ -267,7 +267,7 @@
     transition: background 0.2s;
   }
   .dissertation-link:hover {
-    background-color: rgb(166, 216, 209);
+    background-color: rgb(196, 228, 230);
     color: #111;
   }
   .site-footer {
@@ -296,7 +296,7 @@
     color: #222;
     text-decoration: none;
     font-weight: 500;
-    background: rgb(166, 216, 209);
+    background: rgb(196, 228, 230);
     padding: 0.3rem 0.9rem;
     border-radius: 0.5rem;
     transition: background 0.2s;
@@ -314,6 +314,7 @@
 
   :global(body) {
     margin-bottom: 80px; /* space for footer */
+    background: rgb(196, 228, 230);
   }
 
   .site-footer {
