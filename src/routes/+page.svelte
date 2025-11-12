@@ -315,6 +315,7 @@
   :global(body) {
     margin-bottom: 80px; /* space for footer */
     background: rgb(196, 228, 230);
+    font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
   }
 
   .site-footer {

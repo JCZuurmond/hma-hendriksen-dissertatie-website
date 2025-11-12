@@ -28,7 +28,7 @@ Execute the following tasks:
 1. Apply a modern design using the color palette:
     1. RGB(233, 194, 222)
     1. RGB(196, 228, 230)
-1. Make the font configurable (use a placeholder font initially)
+1. Set font family to Myriad Pro with sensible backups
 
 ## Non-functional requirements
 
