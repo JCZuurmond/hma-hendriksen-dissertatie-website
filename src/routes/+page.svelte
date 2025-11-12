@@ -151,7 +151,7 @@
       margin: 0 auto;
       padding: 2.5rem 2rem;
       background-color: rgb(219, 171, 194); /* Suggested color */
-      border-radius: 1rem;
+      border-radius: 0;
       box-sizing: border-box;
     }
     .about-section h3 {
@@ -170,7 +170,7 @@
     margin: 0 auto;
     padding: 2.5rem 2rem;
     background-color: rgb(166, 216, 209); /* Second suggested color */
-    border-radius: 1rem;
+    border-radius: 0;
     box-sizing: border-box;
   }
   .author-content {
@@ -235,7 +235,7 @@
     margin: 0 auto;
     padding: 2.5rem 2rem;
     background-color: rgb(219, 171, 194); /* Suggested color */
-    border-radius: 1rem;
+    border-radius: 0;
     box-sizing: border-box;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
     text-align: left;
