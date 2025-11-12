@@ -21,6 +21,7 @@ Execute the following tasks:
 1. Implement a main landing page with dissertation title and subtitle
 1. Add additional sections:
     1. About
+    1. Author
     1. Publication
 1. Header: Add a navigator bar at the top of the website when clicked it jumps to each section
 1. Footer: Add email contacts in the footer.
