@@ -44,3 +44,4 @@ You can preview the production build with `npm run preview`.
 
 # TODO
 - High quality picture of Heleen
+- Make footer only visible when scrolling all the way down

@@ -56,6 +56,16 @@
       on Subjective Cognitive Decline "
     </p>
   </section>
+
+<footer class="site-footer visible">
+  <div class="footer-content">
+    <a href="mailto:foobar.com" class="footer-link">E-mail</a>
+    <span class="footer-separator">|</span>
+    <a href="https://www.adappt.health/nl/informatie" class="footer-link" target="_blank" rel="noopener noreferrer">Adappt Health</a>
+    <span class="footer-separator">|</span>
+    <a href="https://www.alzheimer-nederland.nl/" class="footer-link" target="_blank" rel="noopener noreferrer">Alzheimer Nederland</a>
+  </div>
+</footer>
 </main>
 
 <style>
@@ -253,4 +263,55 @@
     background-color: rgb(166, 216, 209);
     color: #111;
   }
+  .site-footer {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.04);
+    padding: 1.5rem 0 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    transition: opacity 0.3s;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    align-items: center;
+    font-size: 1rem;
+    color: #222;
+  }
+  .footer-link {
+    color: #222;
+    text-decoration: none;
+    font-weight: 500;
+    background: rgb(166, 216, 209);
+    padding: 0.3rem 0.9rem;
+    border-radius: 0.5rem;
+    transition: background 0.2s;
+  }
+  .footer-link:hover {
+    background: rgb(219, 171, 194);
+    color: #111;
+  }
+  .footer-separator {
+    color: #aaa;
+    font-size: 1.1rem;
+    user-select: none;
+  }
+
+
+  :global(body) {
+    margin-bottom: 80px; /* space for footer */
+  }
+
+  .site-footer {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
 </style>
