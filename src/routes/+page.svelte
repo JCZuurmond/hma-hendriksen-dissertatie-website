@@ -148,7 +148,7 @@
     .about-section {
       width: 100%;
       max-width: 800px;
-      margin: 2rem auto 0 auto;
+      margin: 0 auto;
       padding: 2.5rem 2rem;
       background-color: rgb(219, 171, 194); /* Suggested color */
       border-radius: 1rem;
@@ -167,7 +167,7 @@
   .author-section {
     width: 100%;
     max-width: 800px;
-    margin: 2rem auto 0 auto;
+    margin: 0 auto;
     padding: 2.5rem 2rem;
     background-color: rgb(166, 216, 209); /* Second suggested color */
     border-radius: 1rem;
@@ -232,13 +232,19 @@
   .dissertation-section {
     width: 100%;
     max-width: 800px;
-    margin: 2rem auto 2rem auto;
+    margin: 0 auto;
     padding: 2.5rem 2rem;
     background-color: rgb(219, 171, 194); /* Suggested color */
     border-radius: 1rem;
     box-sizing: border-box;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
     text-align: left;
+  }
+  .header-section {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    /* No vertical margin between sections */
   }
   .dissertation-section h3 {
     margin-top: 0;
