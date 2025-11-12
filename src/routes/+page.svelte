@@ -106,14 +106,18 @@
   }
   .header-background {
     width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
     padding: 35rem 23rem 35rem 23rem;
     background-image: url('/hma-hendriksen-dissertatie-website/background.png');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
     box-sizing: border-box;
+  }
+  .header-section {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    /* No vertical margin between sections */
   }
   h1 {
     font-size: 2.5rem;
