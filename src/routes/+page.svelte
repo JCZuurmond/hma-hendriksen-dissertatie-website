@@ -19,6 +19,25 @@
       hadden gewild, en zo ja, over welke onderwerpen. 
     </p>
   </section>
+
+  <section class="author-section">
+    <div class="author-content">
+      <div class="author-image">
+        <img src="/hma-hendriksen-dissertatie-website/Heleen.jpg" alt="Heleen" />
+        <div class="author-image-note">Foto gemaakt door Hylke Greidanus Photography.</div>
+      </div>
+      <div class="author-text">
+        <h3>Wie is Heleen?</h3>
+        <p>
+          Heleen Hendriksen richt zich in haar onderzoek op de communicatie
+          tussen zorgverleners en patiënten op de geheugenpoli. Op basis van
+          haar onderzoeksresultaten ontwikkelt ze materialen die zowel patiënten
+          als zorgverleners ondersteunen in hun gesprekken. Ze doet dit bij
+          Alzheimercentrum Amsterdam binnen het ABOARD-project.  
+        </p>
+      </div>
+    </div>
+  </section>
 </main>
 
 <style>
@@ -83,4 +102,68 @@
       font-size: 1rem;
       margin-bottom: 0;
     }
+  .author-section {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto 0 auto;
+    padding: 2.5rem 2rem;
+    background-color: rgb(166, 216, 209); /* Second suggested color */
+    border-radius: 1rem;
+    box-sizing: border-box;
+  }
+  .author-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .author-text {
+    flex: 2;
+  }
+  .author-text h3 {
+    margin-top: 0;
+    font-size: 1.4rem;
+    color: #222;
+  }
+  .author-text p {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  .author-image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .author-image img {
+    max-width: 140px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  .author-image-note {
+    font-size: 0.85rem;
+    color: #555;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    .author-content {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.5rem;
+    }
+    .author-image {
+      justify-content: flex-start;
+      width: 100%;
+    }
+    .author-image img {
+      max-width: 100px;
+    }
+  }
 </style>

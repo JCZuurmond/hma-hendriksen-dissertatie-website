@@ -41,3 +41,6 @@ You can preview the production build with `npm run preview`.
 # Resources
 - https://www.alzheimer-nederland.nl/onderzoek/projecten/aboard/jonge-onderzoekers-aboard/heleen-hendriksen
 - https://www.adappt.health/nl/informatie/overons
+
+# TODO
+- High quality picture of Heleen
