@@ -210,7 +210,7 @@
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-    padding: 2.5rem 2rem 0rem 2rem;
+    padding: 2rem 2rem;
     background-color: rgb(233, 194, 222);
     border-radius: 0;
     box-sizing: border-box;
@@ -230,8 +230,8 @@
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-    padding: 2.5rem 2rem;
-    background-color: rgb(233, 194, 222);
+    padding: 1rem 2rem;
+    background-color: rgb(196, 228, 230);
     border-radius: 0;
     box-sizing: border-box;
   }
