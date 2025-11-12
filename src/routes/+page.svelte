@@ -6,7 +6,7 @@
   <nav class="nav-bar">
   <button on:click={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Top</button>
   <button on:click={() => document.getElementById('about-section').scrollIntoView({behavior: 'smooth'})}>Over</button>
-  <button on:click={() => document.getElementById('dissertation-section').scrollIntoView({behavior: 'smooth'})}>Dissertatie</button>
+  <button on:click={() => window.open('https://research.vu.nl/en/publications/improving-information-provision-in-the-memory-clinic-with-a-focus/', '_blank', 'noopener,noreferrer')}>Dissertatie</button>
   </nav>
 </header>
 
@@ -47,15 +47,7 @@
     </p>
   </section>
 
-  <section id="dissertation-section" class="dissertation-section">
-    <h3>Dissertatie</h3>
-    <p>
-      Op 21 November 2025 verdigde H.M.A. haar 
-      <a class="dissertation-link" href="https://research.vu.nl/en/publications/improving-information-provision-in-the-memory-clinic-with-a-focus/" target="_blank" rel="noopener noreferrer">dissertatie</a>
-      over "Improving information provision in the memory clinic: with a focus
-      on Subjective Cognitive Decline "
-    </p>
-  </section>
+
 
 <footer class="site-footer visible">
   <div class="footer-content">
@@ -229,47 +221,6 @@
     }
   }
 
-  .dissertation-section {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2.5rem 2rem;
-    background-color: rgb(233, 194, 222);
-    border-radius: 0;
-    box-sizing: border-box;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-    text-align: left;
-  }
-  .header-section {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    /* No vertical margin between sections */
-  }
-  .dissertation-section h3 {
-    margin-top: 0;
-    font-size: 1.4rem;
-    color: #222;
-  }
-  .dissertation-section p {
-    color: #333;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
-  .dissertation-link {
-    display: inline-block;
-    padding: 0.5rem 1.25rem;
-    background-color: rgb(233, 194, 222);
-    color: #222;
-    border-radius: 0.5rem;
-    text-decoration: none;
-    font-weight: 500;
-    transition: background 0.2s;
-  }
-  .dissertation-link:hover {
-    background-color: rgb(196, 228, 230);
-    color: #111;
-  }
   .site-footer {
     width: 100%;
     background: #fff;
