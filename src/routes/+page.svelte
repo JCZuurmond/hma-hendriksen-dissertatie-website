@@ -88,7 +88,7 @@
     margin: 0 auto;
   }
   .nav-bar button {
-    background: rgb(196, 228, 230);
+    background: rgb(233, 194, 222);
     color: #222;
     border: none;
     border-radius: 0.5rem;
@@ -99,7 +99,7 @@
     transition: background 0.2s;
   }
   .nav-bar button:hover {
-    background: rgb(233, 194, 222);
+    background: rgb(196, 228, 230);
     color: #111;
   }
   main {
