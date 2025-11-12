@@ -47,7 +47,7 @@
     </p>
   </section>
 
-
+</main>
 
 <footer class="site-footer visible">
   <div class="footer-content">
@@ -58,7 +58,6 @@
     <a href="https://www.alzheimer-nederland.nl/" class="footer-link" target="_blank" rel="noopener noreferrer">Alzheimer Nederland</a>
   </div>
 </footer>
-</main>
 
 <style>
   .site-header {
@@ -227,8 +226,8 @@
 
   .site-footer {
     width: 100%;
-    background: #fff;
-    box-shadow: 0 -2px 8px rgba(0,0,0,0.04);
+    background: rgb(196, 228, 230);
+    box-shadow: none;
     padding: 1.5rem 0 1.5rem 0;
     display: flex;
     justify-content: center;
@@ -246,12 +245,13 @@
     align-items: center;
     font-size: 1rem;
     color: #222;
+    background: transparent;
   }
   .footer-link {
     color: #222;
     text-decoration: none;
     font-weight: 500;
-    background: rgb(196, 228, 230);
+    background: transparent;
     padding: 0.3rem 0.9rem;
     border-radius: 0.5rem;
     transition: background 0.2s;
