@@ -140,25 +140,6 @@
       font-size: 1.25rem;
     }
   }
-    .about-section {
-      width: 100%;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 2.5rem 2rem 0rem 2rem;
-      background-color: rgb(233, 194, 222);
-      border-radius: 0;
-      box-sizing: border-box;
-    }
-    .about-section h3 {
-      margin-top: 0;
-      font-size: 1.4rem;
-      color: #222;
-    }
-    .about-section p {
-      color: #333;
-      font-size: 1rem;
-      margin-bottom: 0;
-    }
 
   .author-section {
     width: 100%;
@@ -223,6 +204,26 @@
     .author-image img {
       max-width: 100px;
     }
+  }
+
+  .about-section {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem 0rem 2rem;
+    background-color: rgb(233, 194, 222);
+    border-radius: 0;
+    box-sizing: border-box;
+  }
+  .about-section h3 {
+    margin-top: 0;
+    font-size: 1.4rem;
+    color: #222;
+  }
+  .about-section p {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 0;
   }
 
   .site-footer {
