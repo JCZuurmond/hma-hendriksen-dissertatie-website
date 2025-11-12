@@ -97,6 +97,7 @@
     font-weight: 500;
     cursor: pointer;
     transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
   }
   .nav-bar button:hover {
     background: rgb(196, 228, 230);
