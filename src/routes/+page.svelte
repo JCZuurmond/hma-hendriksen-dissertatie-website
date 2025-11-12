@@ -4,9 +4,9 @@
 
 <header class="site-header">
   <nav class="nav-bar">
-    <button on:click={() => document.getElementById('about-section').scrollIntoView({behavior: 'smooth'})}>Over</button>
-    <button on:click={() => document.getElementById('author-section').scrollIntoView({behavior: 'smooth'})}>Auteur</button>
-    <button on:click={() => document.getElementById('dissertation-section').scrollIntoView({behavior: 'smooth'})}>Dissertatie</button>
+  <button on:click={() => document.getElementById('author-section').scrollIntoView({behavior: 'smooth'})}>Auteur</button>
+  <button on:click={() => document.getElementById('about-section').scrollIntoView({behavior: 'smooth'})}>Over</button>
+  <button on:click={() => document.getElementById('dissertation-section').scrollIntoView({behavior: 'smooth'})}>Dissertatie</button>
   </nav>
 </header>
 
@@ -16,6 +16,24 @@
     </div>
   </section>
   
+  <section id="author-section" class="author-section">
+    <div class="author-content">
+      <div class="author-image">
+        <img src="/hma-hendriksen-dissertatie-website/Heleen.jpg" alt="Heleen" />
+        <div class="author-image-note">Foto gemaakt door Hylke Greidanus Photography.</div>
+      </div>
+      <div class="author-text">
+        <p>
+          Heleen Hendriksen richt zich in haar onderzoek op de communicatie
+          tussen zorgverleners en patiënten op de geheugenpoli. Op basis van
+          haar onderzoeksresultaten ontwikkelt ze materialen die zowel patiënten
+          als zorgverleners ondersteunen in hun gesprekken. Ze doet dit bij
+          Alzheimercentrum Amsterdam binnen het ABOARD-project.  
+        </p>
+      </div>
+    </div>
+  </section>
+
   <section id="about-section" class="about-section">
     <h3>Waar gaat dit onderzoek over</h3>
     <p>
@@ -27,25 +45,6 @@
       de geheugenpoli. Ook vroegen we of patiënten meer of minder informatie
       hadden gewild, en zo ja, over welke onderwerpen. 
     </p>
-  </section>
-
-  <section id="author-section" class="author-section">
-    <div class="author-content">
-      <div class="author-image">
-        <img src="/hma-hendriksen-dissertatie-website/Heleen.jpg" alt="Heleen" />
-        <div class="author-image-note">Foto gemaakt door Hylke Greidanus Photography.</div>
-      </div>
-      <div class="author-text">
-        <h3>Wie is Heleen?</h3>
-        <p>
-          Heleen Hendriksen richt zich in haar onderzoek op de communicatie
-          tussen zorgverleners en patiënten op de geheugenpoli. Op basis van
-          haar onderzoeksresultaten ontwikkelt ze materialen die zowel patiënten
-          als zorgverleners ondersteunen in hun gesprekken. Ze doet dit bij
-          Alzheimercentrum Amsterdam binnen het ABOARD-project.  
-        </p>
-      </div>
-    </div>
   </section>
 
   <section id="dissertation-section" class="dissertation-section">
@@ -169,7 +168,7 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 2.5rem 2rem;
-    background-color: rgb(196, 228, 230);
+    background-color: rgb(233, 194, 222);
     border-radius: 0;
     box-sizing: border-box;
   }
