@@ -1,0 +1,25 @@
+name: Download and Commit HTML
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *' # Runs daily at 06:00 UTC
+
+jobs:
+  download-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download HTML from heleenhendriksen.nl
+        run: |
+          curl -L https://heleenhendriksen.nl -o index.html
+
+      - name: Commit and push index.html
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Update index.html from heleenhendriksen.nl" || echo "No changes to commit"
+          git push
