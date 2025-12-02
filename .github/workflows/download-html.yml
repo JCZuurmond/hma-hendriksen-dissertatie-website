@@ -2,6 +2,12 @@ name: Download and Commit HTML
 
 on:
   workflow_dispatch:
+    inputs:
+      website_url:
+        description: 'The URL of the website to download'
+        default: 'https://heleenhendriksen.nl'
+        required: true
+        type: string
   schedule:
     - cron: '0 6 * * *' # Runs daily at 06:00 UTC
 
@@ -15,14 +21,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download HTML from heleenhendriksen.nl
+      - name: Download HTML from ${{ inputs.website_url }}
         run: |
-          curl -L https://heleenhendriksen.nl -o index.html
+          curl -L ${{ inputs.website_url }} -o index.html
 
       - name: Commit and push index.html
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add index.html
-          git commit -m "Update index.html from heleenhendriksen.nl" || echo "No changes to commit"
+          git commit -m "Update index.html from ${{ inputs.website_url }}" || echo "No changes to commit"
           git push
