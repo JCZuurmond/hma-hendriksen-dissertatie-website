@@ -74,5 +74,5 @@ if __name__ == "__main__":
     download_resources(
         resources, 
         output_dir, 
-        resource_types=("html", )
+        resource_types=("html", "js")
     )
