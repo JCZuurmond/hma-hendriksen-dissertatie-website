@@ -50,9 +50,11 @@ def download_resources(
     """
     resource_types = resource_types or tuple(resources.keys())
     for resource_type in resource_types:
+
         path = output_dir
         if resource_type == "html":
             path = output_dir / "index.html" 
+
         for url in resources.get(resource_type, []):
             download_file(url, path)
 
@@ -74,5 +76,5 @@ if __name__ == "__main__":
     download_resources(
         resources, 
         output_dir, 
-        resource_types=("html", "js")
+        resource_types=("html", "js", "css",)
     )
