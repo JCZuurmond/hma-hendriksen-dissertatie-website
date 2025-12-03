@@ -9,20 +9,27 @@ def modify_file(path: Path, app_folder: Path) -> None:
 
     Args:
         path (Path): The path to the file to modify.
-        app_folder (Path): The path to the local `_app` folder containing JavaScript files.
+        app_folder (Path): The path to the local `_app` folder containing JavaScript and CSS files.
     """
     try:
         content = path.read_text(encoding="utf-8")
 
         # Remove Gamma-related resources (scripts, stylesheets, and metadata)
-        #content = re.sub(r'<script.*?gammahosted.*?</script>', '', content, flags=re.DOTALL)
-        #content = re.sub(r'<link.*?gammahosted.*?>', '', content, flags=re.DOTALL)
-        #updated_contentcontent = re.sub(r'<meta.*?gamma\\.app.*?>', '', content, flags=re.DOTALL)
+        content = re.sub(r'<script.*?gammahosted.*?</script>', '', content, flags=re.DOTALL)
+        content = re.sub(r'<link.*?gammahosted.*?>', '', content, flags=re.DOTALL)
+        content = re.sub(r'<meta.*?gamma\\.app.*?>', '', content, flags=re.DOTALL)
 
         # Replace remote JavaScript references with local ones from the `_app` folder
         content = re.sub(
             r'<script.*?src="https://assets\.gammahosted\.com/.*?/(_next/static/chunks/.*?)".*?></script>',
             lambda match: f'<script src="{app_folder / match.group(1)}" defer></script>',
+            content
+        )
+
+        # Replace remote CSS references with local ones from the `_app` folder
+        content = re.sub(
+            r'<link.*?href="https://assets\.gammahosted\.com/.*?/(_next/static/css/.*?)".*?>',
+            lambda match: f'<link rel="stylesheet" href="{app_folder / match.group(1)}">',
             content
         )
 
@@ -37,7 +44,7 @@ def modify_resources(app_folder: Path, *html_paths: Path) -> None:
     Modify all HTML files to remove Gamma-related resources and use local resources.
 
     Args:
-        app_folder (Path): The path to the local `_app` folder containing JavaScript files.
+        app_folder (Path): The path to the local `_app` folder containing JavaScript and CSS files.
         html_paths (Path): Paths to HTML files to modify.
     """
     for path in html_paths:
