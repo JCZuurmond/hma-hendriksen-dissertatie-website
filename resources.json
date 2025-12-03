@@ -1,0 +1,67 @@
+{
+  "html": [
+    "https://heleenhendriksen.nl"
+  ],
+  "css": [
+    "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/css/63953018aeb2f914.css",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/css/b525fb076600a9d1.css",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/css/e4f7afdf21385045.css",
+    "https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap",
+    "https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap"
+  ],
+  "js": [
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/polyfills-42372ed130431b0a.js",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/webpack-c0bc2b68d9354673.js",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/framework-bc35fa1e5043d0d3.js",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/main-c46ae695ab09037f.js",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/pages/_app-b18262ee1278d2ab.js",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/da690673-7462c6c826afa27d.js",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/f7f4f538-8d292738a322fbc1.js",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/8e04e354-a2616e486b6d9521.js",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/9b6c5ff0-df69facb21d7f3ce.js",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/55fae009-d2f8e54b0ff4d8a7.js",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/1988a2b6-724fe6610f4cfc4c.js",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/632abcf6-daa6336b356f7adc.js",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/5862a045-7f5947710223262d.js",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/17c69435-983ac9cd33de50e2.js",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/2295-eae4525af7e70c47.js",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/4034-30605c9798f03b5c.js",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/pages/published/%5BdocId%5D-f21bec694112d3df.js",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/FAYGCWmi1moDAUP6lIDfj/_buildManifest.js",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/FAYGCWmi1moDAUP6lIDfj/_ssgManifest.js"
+  ],
+  "images": [
+    "https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:2000/height:2000/https://cdn.gamma.app/h6g2qk4djpy7c7m/c1c1c6549256447e808f23015ce1ad8d/original/background.png"
+  ],
+  "fonts": [
+    "https://heleenhendriksen.nl#transparent",
+    "https://heleenhendriksen.nl#transparent",
+    "https://heleenhendriksen.nl#theme-accent-gradient-linear",
+    "https://heleenhendriksen.nl#theme-accent-gradient-linear-rtl",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/media/circle-left.b2ca2ce2.svg",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/media/circle-left.b2ca2ce2.svg",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/media/circle-right.9a77e2f4.svg",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/media/circle-right.9a77e2f4.svg",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/media/circle-top.49150ee5.svg",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/media/circle-top.49150ee5.svg",
+    "https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:2000/height:2000/https://cdn.gamma.app/h6g2qk4djpy7c7m/generated-images/x5Xu9TZvX47GVcjUkOU_6.png",
+    "https://heleenhendriksen.nl#transparent",
+    "https://heleenhendriksen.nl#transparent",
+    "https://heleenhendriksen.nl#theme-accent-gradient-linear",
+    "https://heleenhendriksen.nl#theme-accent-gradient-linear-rtl",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/media/circle-left.b2ca2ce2.svg",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/media/circle-left.b2ca2ce2.svg",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/media/circle-right.9a77e2f4.svg",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/media/circle-right.9a77e2f4.svg",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/media/circle-top.49150ee5.svg",
+    "https://assets.gammahosted.com/f8hxs31fx/_next/static/media/circle-top.49150ee5.svg",
+    "https://heleenhendriksen.nl#transparent",
+    "https://heleenhendriksen.nl#transparent",
+    "https://heleenhendriksen.nl#theme-accent-gradient-linear",
+    "https://heleenhendriksen.nl#theme-accent-gradient-linear-rtl",
+    "https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:1200/https://cdn.gamma.app/h6g2qk4djpy7c7m/d7ae5c27720641fa97960e2e22fc34bd/original/Voorkant-zonder-tekst.png",
+    "https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:1200/https://cdn.gamma.app/h6g2qk4djpy7c7m/882fc47cffa2408ba37e89a2286b8170/original/Heleen.jpg"
+  ],
+  "other": []
+}
