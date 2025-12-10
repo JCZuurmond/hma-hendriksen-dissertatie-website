@@ -8,8 +8,6 @@ on:
         default: 'https://heleenhendriksen.nl'
         required: true
         type: string
-  schedule:
-    - cron: '0 6 * * *' # Runs daily at 06:00 UTC
 
 permissions:
   contents: write
