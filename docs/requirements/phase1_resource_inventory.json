@@ -1,0 +1,380 @@
+{
+  "project": "heleenhendriksen.nl Replication",
+  "phase": "Phase 1: Resource Discovery and Mapping",
+  "date": "2025-12-10",
+  "source_url": "https://heleenhendriksen.nl/",
+  "summary": {
+    "total_css_files": 3,
+    "total_js_files": 18,
+    "total_images": 2,
+    "total_fonts": 3,
+    "external_cdn_hosts": 3,
+    "build_id": "FAYGCWmi1moDAUP6lIDfj"
+  },
+  "resources": {
+    "html": {
+      "main_page": {
+        "url": "https://heleenhendriksen.nl/",
+        "local_path": "index.html",
+        "status": "identified",
+        "notes": "Next.js single-page application with inline Chakra UI styles"
+      }
+    },
+    "css": {
+      "stylesheets": [
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/css/63953018aeb2f914.css",
+          "local_path": "f8hxs31fx/_next/static/css/63953018aeb2f914.css",
+          "type": "global",
+          "status": "identified",
+          "data_attr": "data-n-g"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/css/b525fb076600a9d1.css",
+          "local_path": "f8hxs31fx/_next/static/css/b525fb076600a9d1.css",
+          "type": "page",
+          "status": "identified",
+          "data_attr": "data-n-p"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/css/e4f7afdf21385045.css",
+          "local_path": "f8hxs31fx/_next/static/css/e4f7afdf21385045.css",
+          "type": "page",
+          "status": "identified",
+          "data_attr": "data-n-p"
+        }
+      ],
+      "inline_styles": [
+        {
+          "location": "body > #__next > style[data-emotion]",
+          "content": "Chakra UI CSS variables and design system",
+          "notes": "Extensive inline styles embedded in HTML, contains design tokens"
+        }
+      ]
+    },
+    "javascript": {
+      "chunks": [
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/polyfills-42372ed130431b0a.js",
+          "local_path": "f8hxs31fx/_next/static/chunks/polyfills-42372ed130431b0a.js",
+          "type": "polyfills",
+          "defer": true,
+          "noModule": true,
+          "status": "identified"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/webpack-c0bc2b68d9354673.js",
+          "local_path": "f8hxs31fx/_next/static/chunks/webpack-c0bc2b68d9354673.js",
+          "type": "webpack",
+          "defer": true,
+          "status": "identified"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/framework-bc35fa1e5043d0d3.js",
+          "local_path": "f8hxs31fx/_next/static/chunks/framework-bc35fa1e5043d0d3.js",
+          "type": "framework",
+          "defer": true,
+          "status": "identified",
+          "notes": "React framework bundle"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/main-c46ae695ab09037f.js",
+          "local_path": "f8hxs31fx/_next/static/chunks/main-c46ae695ab09037f.js",
+          "type": "main",
+          "defer": true,
+          "status": "identified"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/pages/_app-b18262ee1278d2ab.js",
+          "local_path": "f8hxs31fx/_next/static/chunks/pages/_app-b18262ee1278d2ab.js",
+          "type": "app",
+          "defer": true,
+          "status": "identified",
+          "notes": "Next.js _app component"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/pages/published/%5BdocId%5D-f21bec694112d3df.js",
+          "local_path": "f8hxs31fx/_next/static/chunks/pages/published/[docId]-f21bec694112d3df.js",
+          "type": "page",
+          "defer": true,
+          "status": "identified",
+          "notes": "Dynamic route page component"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/da690673-7462c6c826afa27d.js",
+          "local_path": "f8hxs31fx/_next/static/chunks/da690673-7462c6c826afa27d.js",
+          "type": "chunk",
+          "defer": true,
+          "status": "identified"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/f7f4f538-8d292738a322fbc1.js",
+          "local_path": "f8hxs31fx/_next/static/chunks/f7f4f538-8d292738a322fbc1.js",
+          "type": "chunk",
+          "defer": true,
+          "status": "identified"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/8e04e354-a2616e486b6d9521.js",
+          "local_path": "f8hxs31fx/_next/static/chunks/8e04e354-a2616e486b6d9521.js",
+          "type": "chunk",
+          "defer": true,
+          "status": "identified"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/9b6c5ff0-df69facb21d7f3ce.js",
+          "local_path": "f8hxs31fx/_next/static/chunks/9b6c5ff0-df69facb21d7f3ce.js",
+          "type": "chunk",
+          "defer": true,
+          "status": "identified"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/55fae009-d2f8e54b0ff4d8a7.js",
+          "local_path": "f8hxs31fx/_next/static/chunks/55fae009-d2f8e54b0ff4d8a7.js",
+          "type": "chunk",
+          "defer": true,
+          "status": "identified"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/1988a2b6-724fe6610f4cfc4c.js",
+          "local_path": "f8hxs31fx/_next/static/chunks/1988a2b6-724fe6610f4cfc4c.js",
+          "type": "chunk",
+          "defer": true,
+          "status": "identified"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/632abcf6-daa6336b356f7adc.js",
+          "local_path": "f8hxs31fx/_next/static/chunks/632abcf6-daa6336b356f7adc.js",
+          "type": "chunk",
+          "defer": true,
+          "status": "identified"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/5862a045-7f5947710223262d.js",
+          "local_path": "f8hxs31fx/_next/static/chunks/5862a045-7f5947710223262d.js",
+          "type": "chunk",
+          "defer": true,
+          "status": "identified"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/17c69435-983ac9cd33de50e2.js",
+          "local_path": "f8hxs31fx/_next/static/chunks/17c69435-983ac9cd33de50e2.js",
+          "type": "chunk",
+          "defer": true,
+          "status": "identified"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/2295-eae4525af7e70c47.js",
+          "local_path": "f8hxs31fx/_next/static/chunks/2295-eae4525af7e70c47.js",
+          "type": "chunk",
+          "defer": true,
+          "status": "identified"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/chunks/4034-30605c9798f03b5c.js",
+          "local_path": "f8hxs31fx/_next/static/chunks/4034-30605c9798f03b5c.js",
+          "type": "chunk",
+          "defer": true,
+          "status": "identified"
+        }
+      ],
+      "manifests": [
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/FAYGCWmi1moDAUP6lIDfj/_buildManifest.js",
+          "local_path": "f8hxs31fx/_next/static/FAYGCWmi1moDAUP6lIDfj/_buildManifest.js",
+          "type": "build_manifest",
+          "defer": true,
+          "status": "identified",
+          "notes": "Contains mapping of routes to chunks"
+        },
+        {
+          "url": "https://assets.gammahosted.com/f8hxs31fx/_next/static/FAYGCWmi1moDAUP6lIDfj/_ssgManifest.js",
+          "local_path": "f8hxs31fx/_next/static/FAYGCWmi1moDAUP6lIDfj/_ssgManifest.js",
+          "type": "ssg_manifest",
+          "defer": true,
+          "status": "identified",
+          "notes": "Static site generation manifest"
+        }
+      ]
+    },
+    "fonts": {
+      "google_fonts": [
+        {
+          "url": "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900",
+          "family": "Inter",
+          "weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
+          "status": "identified",
+          "notes": "Used for body text, requires download of CSS + WOFF2 files",
+          "replacement_strategy": "Download Google Fonts CSS, then download referenced WOFF2 files"
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap",
+          "family": "Montserrat",
+          "weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
+          "display": "swap",
+          "status": "identified",
+          "notes": "Used for headings (per initial analysis)",
+          "replacement_strategy": "Download Google Fonts CSS, then download referenced WOFF2 files"
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap",
+          "family": "Roboto",
+          "weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
+          "display": "swap",
+          "status": "identified",
+          "notes": "Used for body text (per initial analysis)",
+          "replacement_strategy": "Download Google Fonts CSS, then download referenced WOFF2 files"
+        }
+      ],
+      "custom_fonts": [
+        {
+          "family": "ESBuild",
+          "referenced_in": "inline CSS (--chakra-fonts-heading)",
+          "status": "unknown",
+          "notes": "Referenced in Chakra UI variables but may be embedded or fallback"
+        },
+        {
+          "family": "PPMori",
+          "referenced_in": "inline CSS (--chakra-fonts-body)",
+          "status": "unknown",
+          "notes": "Referenced in Chakra UI variables but may be embedded or fallback"
+        }
+      ]
+    },
+    "images": {
+      "favicon": {
+        "url": "/x5Xu9TZvX47GVcjUkOU_6-06c6b2a420df4e7b93ebf519df4c5725.png",
+        "local_path": "x5Xu9TZvX47GVcjUkOU_6-06c6b2a420df4e7b93ebf519df4c5725.png",
+        "type": "icon",
+        "status": "identified",
+        "notes": "Relative URL, needs to be downloaded from heleenhendriksen.nl"
+      },
+      "background": {
+        "url": "https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:2000/height:2000/https://cdn.gamma.app/h6g2qk4djpy7c7m/c1c1c6549256447e808f23015ce1ad8d/original/background.png",
+        "original_url": "https://cdn.gamma.app/h6g2qk4djpy7c7m/c1c1c6549256447e808f23015ce1ad8d/original/background.png",
+        "local_path": "images/background.png",
+        "type": "background",
+        "status": "identified",
+        "notes": "Proxied through imgproxy.gamma.app, should download original from cdn.gamma.app"
+      },
+      "og_twitter_image": {
+        "url": "https://assets.api.gamma.app/h6g2qk4djpy7c7m/screenshots/8z44rn45z1njrx5/u976or2si0w0wih/slide/-8olFNumOFzqsWF1HI2ouf5yyz4",
+        "local_path": "images/og-twitter-image.png",
+        "type": "social_media",
+        "status": "identified",
+        "notes": "Used for OpenGraph and Twitter Card meta tags"
+      }
+    },
+    "external_dependencies": {
+      "cdn_hosts": [
+        {
+          "host": "assets.gammahosted.com",
+          "purpose": "Next.js static assets (CSS, JS)",
+          "resource_count": 21,
+          "status": "critical",
+          "notes": "Primary CDN for all application code"
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "purpose": "Google Fonts CSS",
+          "resource_count": 3,
+          "status": "critical",
+          "notes": "Font loading service, can be replaced with local fonts"
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "purpose": "Google Fonts WOFF2 files",
+          "resource_count": "unknown (dynamically loaded)",
+          "status": "critical",
+          "notes": "Font files referenced by Google Fonts CSS, needs runtime discovery"
+        },
+        {
+          "host": "cdn.gamma.app",
+          "purpose": "Image hosting",
+          "resource_count": 1,
+          "status": "important",
+          "notes": "Original image source"
+        },
+        {
+          "host": "imgproxy.gamma.app",
+          "purpose": "Image proxy/optimization",
+          "resource_count": 1,
+          "status": "optional",
+          "notes": "Image processing service, can be bypassed"
+        },
+        {
+          "host": "assets.api.gamma.app",
+          "purpose": "Social media preview images",
+          "resource_count": 1,
+          "status": "optional",
+          "notes": "OpenGraph/Twitter Card images"
+        }
+      ],
+      "external_services": {
+        "analytics": {
+          "detected": false,
+          "notes": "No Google Analytics, Facebook Pixel, or other tracking detected in HTML"
+        },
+        "apis": {
+          "detected": false,
+          "notes": "No obvious API calls in HTML, may be present in JavaScript"
+        }
+      },
+      "external_links": [
+        {
+          "url": "https://research.vu.nl/en/publications/improving-information-provision-in-the-memory-clinic-with-a-focus/",
+          "purpose": "External research publication link",
+          "action": "keep as external link"
+        },
+        {
+          "url": "https://www.adappt.health/nl/informatie",
+          "purpose": "External information link",
+          "action": "keep as external link"
+        },
+        {
+          "url": "mailto:contact@heleenhendriksen.nl",
+          "purpose": "Contact email",
+          "action": "keep as-is"
+        }
+      ]
+    },
+    "next_js_structure": {
+      "build_id": "FAYGCWmi1moDAUP6lIDfj",
+      "base_path": "f8hxs31fx",
+      "static_path": "f8hxs31fx/_next/static",
+      "routing": {
+        "type": "dynamic",
+        "pattern": "/published/[docId]",
+        "notes": "Single dynamic route for published documents"
+      },
+      "framework_version": "unknown",
+      "notes": "Next.js application exported as static HTML with client-side hydration"
+    },
+    "dynamic_resources": {
+      "notes": "JavaScript may load additional resources at runtime",
+      "discovery_method": "Browser DevTools network monitoring required",
+      "concerns": [
+        "Font files from fonts.gstatic.com loaded by Google Fonts CSS",
+        "Potential API calls from JavaScript chunks",
+        "Dynamically imported JavaScript chunks",
+        "Lazy-loaded images or other media"
+      ]
+    }
+  },
+  "phase1_completion_status": {
+    "html_analysis": "complete",
+    "css_discovery": "complete",
+    "javascript_discovery": "complete",
+    "font_discovery": "partial - needs runtime verification",
+    "image_discovery": "complete",
+    "external_dependencies": "complete",
+    "dynamic_resource_discovery": "pending - requires browser analysis"
+  },
+  "next_steps": [
+    "Use browser DevTools to capture all network requests during page load",
+    "Identify any dynamically loaded resources not visible in HTML",
+    "Download Google Fonts CSS to identify exact WOFF2 file URLs",
+    "Verify custom fonts (ESBuild, PPMori) existence and source",
+    "Proceed to Phase 2: Resource Download"
+  ]
+}
